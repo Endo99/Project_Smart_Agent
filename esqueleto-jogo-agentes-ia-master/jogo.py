@@ -15,10 +15,10 @@ def ler_tempo(em_turnos=False):
     return 1 if em_turnos else time.time()
 
 
-def iniciar_jogo():
+#def iniciar_jogo():
     
     # Inicializar e configurar jogo
-    jogo = construir_jogo()
+    #jogo = construir_jogo()
     #personagem_jogador = jogo.registrarAgentePersonagem(Personagens.O_JOGADOR)
     #agente_jogador = construir_agente(TiposAgentes.PREPOSTO_HUMANO, Personagens.O_JOGADOR)
     
@@ -26,7 +26,7 @@ def iniciar_jogo():
     #while not jogo.isFim():
         
         # Mostrar mundo ao jogador
-    ambiente_perceptivel = jogo.gerarCampoVisao(personagem_jogador)
+        #ambiente_perceptivel = jogo.gerarCampoVisao(personagem_jogador)
         #agente_jogador.adquirirPercepcao(ambiente_perceptivel)
         
         # Decidir jogada e apresentar ao jogo
@@ -39,5 +39,5 @@ def iniciar_jogo():
         #tempo_de_jogo += tempo_corrente
 
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
     iniciar_jogo()
